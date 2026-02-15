@@ -1,0 +1,10 @@
+# Archivos y carpetas a ignorar en Vercel
+.env.local
+.env.*.local
+.env.*
+node_modules
+.git
+.gitignore
+README.md
+.eslintrc.cjs
+eslint.config.js
