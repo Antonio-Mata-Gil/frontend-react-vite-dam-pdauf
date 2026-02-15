@@ -3,7 +3,6 @@ import Insignia from "../components/insignia";
 import UsersList from "../components/UsersList";
 import CreateUser from "../components/CreateUser";
 
-
 function Home() {
   const [credentials, setCredentials] = useState({
     username: "Antonio López",
