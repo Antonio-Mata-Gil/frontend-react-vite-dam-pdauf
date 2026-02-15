@@ -10,6 +10,8 @@ function Home() {
     role: "administrador",
   });
 
+  // Nueva configuración
+
   return (
     <div className="min-h-screen w-[95%] mx-auto py-8 flex flex-col gap-8">
       <div className="text-center ">
