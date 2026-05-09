@@ -34,7 +34,7 @@ const createAuthHeaders = (credentials) => {
   
   return {
     "Authorization": `Basic ${encodedCredentials}`,
-    "x-user-role": credentials.role,
+    "rol": credentials.role,
   };
 };
 
